@@ -8,12 +8,14 @@ Click any `launch binder` badge on this page to run PatMatch inside your browser
 
 ***PatMatch: a program for finding patterns in peptide and nucleotide sequences.***
 
-This repository is for running perl-based PatMatch in Jupyter environment provided by Binder
+This repository is for running perl-based PatMatch in Jupyter environment provided by [MyBinder.org](https://mybinder.org/).
 
 ------
 
 Software
 --------
+
+The PatMatch software is available from the authors [here](ftp://ftp.arabidopsis.org/home/tair/Software/Patmatch/).
 
 The PatMatch software is described in [this scientific article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1160129/).
 
@@ -25,7 +27,7 @@ Nucleic Acids Res. 2005 Jul 1;33(Web Server issue):W262-6. [PMID: 15980466](http
 
 The copyright information for the software is available in the `patmatch_1.2` directory of actively running binders.
 
-***Clarifying attribution: I, Wayne, am not involved in this software at all. Those listed above are the developers and distributors. See their materials. I simply set up this repository to make the software useable on the command line without installation headaches.***
+***Clarifying Software Attribution: I, Wayne, am not involved in this software at all. Those listed above are the developers and distributors. See their materials. I simply set up this repository to make the software useable on the command line without installation headaches.***
 
 Usage
 -----
@@ -54,6 +56,8 @@ There are a number of places where web-served versions of software are already s
 
 Technical Details
 -----------------
+
+This repostory is set up to make use of the binder service offered by [MyBinder.org](https://mybinder.org/). See their site for more information about Binder.
 
 Unlike with [circos](https://github.com/fomightez/circos-binder/blob/master/postBuild), so far I have been unable to figure out how to get the file off the [FTP server](ftp://ftp.arabidopsis.org/home/tair/Software/Patmatch/) via curl, and so I added it to repo. Then it gets unpacked and compiled via running `postBuild` when the Jupyter environment starts.
 
