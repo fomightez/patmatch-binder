@@ -37,13 +37,18 @@ There are a number of places where web-served versions of software are already s
 * [S. cerevisiae genomes](https://www.yeastgenome.org/nph-patmatch)
 * [Human genome](https://humancyc.org/patmatch.shtml?organism=HUMAN)
 * [Arabidopsis genome](http://www.arabidopsis.org/cgi-bin/patmatch/nph-patmatch.pl)
-* [Aspergillus genome](http://www.aspergillusgenome.org/cgi-bin/PATMATCH/nph-patmatch)
-* []()
-* []()
+* [Aspergillus genomes](http://www.aspergillusgenome.org/cgi-bin/PATMATCH/nph-patmatch)
+* [Candida genome](http://www.candidagenome.org/cgi-bin/PATMATCH/nph-patmatch)
+* [E. coli genome](https://ecocyc.org/patmatch.shtml?organism=ECOLI)
+* [B. subtilis genome](https://bsubcyc.org/patmatch.shtml?organism=BSUB)
+* [Pseudomonas genome](http://www.pseudomonas.com:1555/patmatch.shtml?organism=PSEUDO)
 * []()
 * []()
 
+**Related web-based offerings:**
 
+* [fuzzpro/fuzznuc emboss prosite-style pattern matches in complete Genomes DataBase](http://www-archbac.u-psud.fr/genomics/patternMatch.html)
+* [RSAT - genome-scale dna-pattern](http://rsat01.biologie.ens.fr/rsat/genome-scale-dna-pattern_form.cgi)
 
 
 Technical Details
