@@ -15,7 +15,7 @@ This repository is for running perl-based PatMatch in Jupyter environment provid
 Software
 --------
 
-The PatMatch software is available directly from the authors at ftp://ftp.arabidopsis.org/home/tair/Software/Patmatch/.
+The PatMatch software is available directly from the authors at <a href="ftp://ftp.arabidopsis.org/home/tair/Software/Patmatch/">ftp://ftp.arabidopsis.org/home/tair/Software/Patmatch/</a>.
 
 The PatMatch software is described in [this scientific article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1160129/).
 
