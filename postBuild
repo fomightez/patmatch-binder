@@ -3,12 +3,15 @@
 # install bash_kernel to Jupyter
 python -m bash_kernel.install
 
-# Get Circos and unpack
-curl -O http://circos.ca/distribution/circos-0.69-6.tgz
-tar xvfz circos-0.69-6.tgz
-rm circos-0.69-6.tgz
+# Get PatMAtch and unpack
+# Unlike with [circos](https://github.com/fomightez/circos-binder/blob/master/postBuild), 
+# so far I have been unable to figure out how to get the file off the 
+# [FTP server](ftp://ftp.arabidopsis.org/home/tair/Software/Patmatch/) via curl, 
+# and so I added it to repo.  
+#curl -O ftp://ftp.arabidopsis.org/home/tair/Software/Patmatch/patmatch_1.2.tar.gz
+tar xvfz patmatch_1.2.tar.gz
+rm patmatch_1.2.tar.gz
 
-# Get Circos tutorial files
-curl -O http://circos.ca/distribution/circos-tutorials-0.67.tgz
-tar xvfz circos-tutorials-0.67.tgz
-rm circos-tutorials-0.67.tgz
+# Compile PatMatch
+cd patmatch_1.2
+make
