@@ -34,7 +34,7 @@ There are a number of places where web-served versions of software are already s
 
 *Pattern Matching with PatMatch web-based tools*
 
-* [S. cerevisiae](https://www.yeastgenome.org/nph-patmatch)
+* [S. cerevisiae genomes](https://www.yeastgenome.org/nph-patmatch)
 * [Human genome](https://humancyc.org/patmatch.shtml?organism=HUMAN)
 * [Arabidopsis genome](http://www.arabidopsis.org/cgi-bin/patmatch/nph-patmatch.pl)
 * [Aspergillus genome](http://www.aspergillusgenome.org/cgi-bin/PATMATCH/nph-patmatch)
