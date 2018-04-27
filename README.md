@@ -25,10 +25,12 @@ Nucleic Acids Res. 2005 Jul 1;33(Web Server issue):W262-6. [PMID: 15980466](http
 
 The copyright information for the software is available in the `patmatch_1.2` directory of actively running binders.
 
+***Clarifying attribution: I, Wayne, am not involved in this software at all. Those listed above are the developers and distributors. See their materials. I simply set up this repository to make the software useable on the command line without installation headaches.***
+
 Usage
 -----
 
-This repository is set up to allow running the command line version of this software after pressing the `launch binder` button above.
+This repository is set up to allow running the command line version of this software after pressing the `launch binder` button above or below.
 
 There are a number of places where web-served versions of software are already set up to work with specific genomes:
 
