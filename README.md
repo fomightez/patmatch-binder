@@ -32,7 +32,7 @@ The copyright information for the software is available in the `patmatch_1.2` di
 Usage
 -----
 
-This repository is set up to allow running the command line version of this software after pressing the `launch binder` button above or below.
+This repository is set up to allow running the command line version of this software after pressing the `launch binder` button above or below. Refer to this [this page](https://www.yeastgenome.org/nph-patmatch#examples) for 'Supported Pattern Syntax/Examples/Limits' information.
 
 There are a number of places where web-served versions of software are already set up to work with specific genomes:
 
