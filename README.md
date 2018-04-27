@@ -23,7 +23,7 @@ PatMatch: a program for finding patterns in peptide and nucleotide sequences.
 Yan T, Yoo D, Berardini TZ, Mueller LA, Weems DC, Weng S, Cherry JM, Rhee SY.  
 Nucleic Acids Res. 2005 Jul 1;33(Web Server issue):W262-6. [PMID: 15980466](https://www.ncbi.nlm.nih.gov/pubmed/15980466)
 
-The license for the software is available in the `patmatch_1.2` directory of actively running binders.
+The copy right information for the software is available in the `patmatch_1.2` directory of actively running binders.
 
 Usage
 -----
@@ -42,8 +42,7 @@ There are a number of places where web-served versions of software are already s
 * [E. coli genome](https://ecocyc.org/patmatch.shtml?organism=ECOLI)
 * [B. subtilis genome](https://bsubcyc.org/patmatch.shtml?organism=BSUB)
 * [Pseudomonas genome](http://www.pseudomonas.com:1555/patmatch.shtml?organism=PSEUDO)
-* []()
-* []()
+
 
 **Related web-based offerings:**
 
