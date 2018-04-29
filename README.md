@@ -59,7 +59,7 @@ Technical Details
 
 This repostory is set up to make use of the binder service offered by [MyBinder.org](https://mybinder.org/). See their site for more information about Binder.
 
-Unlike with [circos](https://github.com/fomightez/circos-binder/blob/master/postBuild), so far I have been unable to figure out how to get the file off the [FTP server](ftp://ftp.arabidopsis.org/home/tair/Software/Patmatch/) via curl, and so I added it to repo. Then it gets unpacked and compiled via running `postBuild` when the Jupyter environment starts.
+Unlike with [circos](https://github.com/fomightez/circos-binder/blob/master/postBuild) which was easy to download, so far I have been unable to figure out how to get the software file off the [FTP server](ftp://ftp.arabidopsis.org/home/tair/Software/Patmatch/) via curl, and so I added it to repo. Then it gets unpacked and compiled via running `postBuild` when the Jupyter environment starts.
 
 Click this button below to begin using PatMatch:
 
