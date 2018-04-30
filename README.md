@@ -32,7 +32,7 @@ The copyright information for the software is available in the `patmatch_1.2` di
 Usage
 -----
 
-This repository is set up to allow running the command line version of this software after pressing the `launch binder` button above or below. Refer to this [this page](https://www.yeastgenome.org/nph-patmatch#examples) for 'Supported Pattern Syntax/Examples/Limits' information.
+This repository is set up to allow running the command line version of this software after pressing the `launch binder` button above or below. The target use case is when you want to run pattern search on sequences not available via the web-based PatMatch offerings (see below) or you want to integrate the results of PatMatch with Python code easily. Refer to this [this page](https://www.yeastgenome.org/nph-patmatch#examples) for PatMatch's 'Supported Pattern Syntax/Examples/Limits' information.
 
 There are a number of places where web-served versions of software are already set up to work with specific genomes:
 
