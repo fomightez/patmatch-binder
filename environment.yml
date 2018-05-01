@@ -37,5 +37,9 @@ dependencies:
 - perl-parse-recdescent
 - perl-findbin 
 - biopython
+- pandas-datareader>=0.5.0
+- matplotlib>=2.1.1
+- seaborn
+- regex
 - pip:
    - bash_kernel==0.7.1
