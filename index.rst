@@ -15,7 +15,9 @@ patmatch-binder
 sequences.***
 
 This repository is for running perl-based PatMatch in Jupyter
-environment provided by `MyBinder.org <https://mybinder.org/>`__.
+environment provided by `MyBinder.org <https://mybinder.org/>`__. How to
+convert that into results useable with Python and converted to other
+forms is also covered.
 
 --------------
 
@@ -40,10 +42,17 @@ Users should cite:
 The copyright information for the software is available in the
 ``patmatch_1.2`` directory of actively running binders.
 
-***Clarifying Software Attribution: I, Wayne, am not involved in this
-software at all. Those listed above are the developers and distributors.
-See their materials. I simply set up this repository to make the
-software useable on the command line without installation headaches.***
+***Clarifying Software Attribution: I, Wayne, am not involved in the
+PatMatch software at all. Those listed above are the developers and
+distributors of PatMAtch. See their materials. I simply set up this
+repository to make the software useable on the command line without
+installation headaches.***
+
+I, Wayne, did code a utility for use with the results it is available
+`here <https://github.com/fomightez/sequencework/tree/master/circos-utilities>`__
+and utilized in the notebooks in the repository to process the results
+to work with Python and allow easily converting the restuls to other
+forms.
 
 Usage
 -----
@@ -56,6 +65,10 @@ or you want to integrate the results of PatMatch with Python code
 easily. Refer to this `this
 page <https://www.yeastgenome.org/nph-patmatch#examples>`__ for
 PatMatch's 'Supported Pattern Syntax/Examples/Limits' information.
+
+In the notebooks that can be launched, I have added some examples
+illustrating how to use the program and process the results easily into
+forms that can be used with Python and converted into other forms.
 
 There are a number of places where web-served versions of software are
 already set up to work with specific genomes:
