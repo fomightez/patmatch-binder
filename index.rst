@@ -51,7 +51,7 @@ installation headaches.***
 I, Wayne, did code a utility for use with the results it is available
 `here <https://github.com/fomightez/sequencework/tree/master/circos-utilities>`__
 and utilized in the notebooks in the repository to process the results
-to work with Python and allow easily converting the restuls to other
+to work with Python and allow easily converting the results to other
 forms.
 
 Usage
