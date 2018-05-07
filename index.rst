@@ -16,7 +16,7 @@ sequences.***
 
 This repository is for running perl-based PatMatch in Jupyter
 environment provided by `MyBinder.org <https://mybinder.org/>`__. How to
-convert that into results useable with Python and converted to other
+convert that into results useable with Python and convert to other
 forms is also covered.
 
 --------------
