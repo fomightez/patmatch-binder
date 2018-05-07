@@ -8,7 +8,7 @@ Click any `launch binder` badge on this page to run command line-based PatMatch 
 
 ***PatMatch: a program for finding patterns in peptide and nucleotide sequences.***
 
-This repository is for running perl-based PatMatch in Jupyter environment provided by [MyBinder.org](https://mybinder.org/). How to convert that into results useable with Python and converted to other forms is also covered.
+This repository is for running perl-based PatMatch in Jupyter environment provided by [MyBinder.org](https://mybinder.org/). How to convert that into results useable with Python and convert to other forms is also covered.
 
 ------
 
