@@ -29,7 +29,7 @@ The copyright information for the software is available in the `patmatch_1.2` di
 
 ***Clarifying Software Attribution: I, Wayne, am not involved in the PatMatch software at all. Those listed above are the developers and distributors of PatMAtch. See their materials. I simply set up this repository to make the software useable on the command line without installation headaches.***
 
-I, Wayne, did code a utility for use with the results it is available [here](https://github.com/fomightez/sequencework/tree/master/circos-utilities) and utilized in the notebooks in the repository to process the results to work with Python and allow easily converting the restuls to other forms.
+I, Wayne, did code a utility for use with the results it is available [here](https://github.com/fomightez/sequencework/tree/master/circos-utilities) and utilized in the notebooks in the repository to process the results to work with Python and allow easily converting the results to other forms.
 
 Usage
 -----
