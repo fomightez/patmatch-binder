@@ -11,13 +11,17 @@ patmatch-binder
 | Click any ``launch binder`` badge on this page to run command
   line-based PatMatch inside your browser.
 
+--------------
+
 ***PatMatch: a program for finding patterns in peptide and nucleotide
 sequences.***
 
-This repository is for running perl-based PatMatch in Jupyter
-environment provided by `MyBinder.org <https://mybinder.org/>`__. How to
-convert that into results useable with Python and convert to other
-forms is also covered.
+| This repository is for running perl-based PatMatch in Jupyter
+  environment provided by `MyBinder.org <https://mybinder.org/>`__.
+| Additionally, having PatMatch working inside the Jupyter environment
+  with interactive Python adds some convenient features that are
+  illustrated. A utility script for moving command line-based PatMatch
+  results into Python is demonstrated.
 
 --------------
 
@@ -48,11 +52,11 @@ distributors of PatMAtch. See their materials. I simply set up this
 repository to make the software useable on the command line without
 installation headaches.***
 
-I, Wayne, did code a utility for use with the results it is available
+I, Wayne, did code a Python-based utility for use with the results from
+command line PatMatch; it is available
 `here <https://github.com/fomightez/sequencework/tree/master/circos-utilities>`__
-and utilized in the notebooks in the repository to process the results
-to work with Python and allow easily converting the results to other
-forms.
+and utilized in the notebooks in this repository to process the results
+and allow easily converting the results to other forms.
 
 Usage
 -----
@@ -67,8 +71,8 @@ page <https://www.yeastgenome.org/nph-patmatch#examples>`__ for
 PatMatch's 'Supported Pattern Syntax/Examples/Limits' information.
 
 In the notebooks that can be launched, I have added some examples
-illustrating how to use the program and process the results easily into
-forms that can be used with Python and converted into other forms.
+illustrating how to use the program and process the results easil with
+Python and convert to other forms.
 
 There are a number of places where web-served versions of software are
 already set up to work with specific genomes:
