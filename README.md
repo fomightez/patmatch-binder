@@ -5,6 +5,7 @@
 *tl;dr:*  
 Click any `launch binder` badge on this page to run command line-based PatMatch inside your browser.
 
+------
 
 ***PatMatch: a program for finding patterns in peptide and nucleotide sequences.***
 
