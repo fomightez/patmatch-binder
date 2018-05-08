@@ -8,7 +8,8 @@ Click any `launch binder` badge on this page to run command line-based PatMatch 
 
 ***PatMatch: a program for finding patterns in peptide and nucleotide sequences.***
 
-This repository is for running perl-based PatMatch in Jupyter environment provided by [MyBinder.org](https://mybinder.org/). How to convert that into results useable with Python and convert to other forms is also covered.
+This repository is for running perl-based PatMatch in Jupyter environment provided by [MyBinder.org](https://mybinder.org/).  
+Additionally, having PatMatch working inside the Jupyter environment with interactive Python adds some convenient features that are illustrated. A utility script for moving command line-based PatMatch results into Python is demonstrated.  
 
 ------
 
@@ -29,14 +30,14 @@ The copyright information for the software is available in the `patmatch_1.2` di
 
 ***Clarifying Software Attribution: I, Wayne, am not involved in the PatMatch software at all. Those listed above are the developers and distributors of PatMAtch. See their materials. I simply set up this repository to make the software useable on the command line without installation headaches.***
 
-I, Wayne, did code a utility for use with the results it is available [here](https://github.com/fomightez/sequencework/tree/master/circos-utilities) and utilized in the notebooks in the repository to process the results to work with Python and allow easily converting the results to other forms.
+I, Wayne, did code a Python-based utility for use with the results from command line PatMatch; it is available [here](https://github.com/fomightez/sequencework/tree/master/circos-utilities) and utilized in the notebooks in this repository to process the results and allow easily converting the results to other forms.
 
 Usage
 -----
 
 This repository is set up to allow running the command line version of this software after pressing the `launch binder` button above or below. The target use case is when you want to run pattern search on sequences not available via the web-based PatMatch offerings (see below) or you want to integrate the results of PatMatch with Python code easily. Refer to this [this page](https://www.yeastgenome.org/nph-patmatch#examples) for PatMatch's 'Supported Pattern Syntax/Examples/Limits' information.
 
-In the notebooks that can be launched, I have added some examples illustrating how to use the program and process the results easily into forms that can be used with Python and converted into other forms.
+In the notebooks that can be launched, I have added some examples illustrating how to use the program and process the results easil with Python and convert to other forms.
 
 There are a number of places where web-served versions of software are already set up to work with specific genomes:
 
