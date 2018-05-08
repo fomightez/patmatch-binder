@@ -13,7 +13,6 @@ patmatch-binder
 
 --------------
 
-TESTING WEBHOOK
 
 ***PatMatch: a program for finding patterns in peptide and nucleotide
 sequences.***
