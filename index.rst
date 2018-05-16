@@ -13,7 +13,6 @@ patmatch-binder
 
 --------------
 
-
 ***PatMatch: a program for finding patterns in peptide and nucleotide
 sequences.***
 
@@ -84,6 +83,8 @@ already set up to work with specific genomes:
 -  `Human genome <https://humancyc.org/patmatch.shtml?organism=HUMAN>`__
 -  `Arabidopsis
    genome <http://www.arabidopsis.org/cgi-bin/patmatch/nph-patmatch.pl>`__
+-  `S.
+   lycopersicum <http://solcyc.solgenomics.net/patmatch.shtml?organism=LYCO>`__
 -  `Aspergillus
    genomes <http://www.aspergillusgenome.org/cgi-bin/PATMATCH/nph-patmatch>`__
 -  `Candida

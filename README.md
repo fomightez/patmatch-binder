@@ -47,6 +47,7 @@ There are a number of places where web-served versions of software are already s
 * [S. cerevisiae genomes](https://www.yeastgenome.org/nph-patmatch)
 * [Human genome](https://humancyc.org/patmatch.shtml?organism=HUMAN)
 * [Arabidopsis genome](http://www.arabidopsis.org/cgi-bin/patmatch/nph-patmatch.pl)
+* [S. lycopersicum](http://solcyc.solgenomics.net/patmatch.shtml?organism=LYCO)
 * [Aspergillus genomes](http://www.aspergillusgenome.org/cgi-bin/PATMATCH/nph-patmatch)
 * [Candida genome](http://www.candidagenome.org/cgi-bin/PATMATCH/nph-patmatch)
 * [E. coli genome](https://ecocyc.org/patmatch.shtml?organism=ECOLI)
