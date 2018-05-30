@@ -71,7 +71,3 @@ Unlike with [circos](https://github.com/fomightez/circos-binder/blob/master/post
 Click this button below to begin using PatMatch:
 
 [![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/fomightez/patmatch-binder/master?filepath=index.ipynb)
-
-
-
-TEST
