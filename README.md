@@ -17,7 +17,7 @@ Additionally, having PatMatch working inside the Jupyter environment with intera
 Software
 --------
 
-The PatMatch software is available directly from the authors at <a href="ftp://ftp.arabidopsis.org/home/tair/Software/Patmatch/">ftp://ftp.arabidopsis.org/home/tair/Software/Patmatch/</a>.
+The PatMatch software will be installed already in each active session launched from this repo. The PatMatch software is available directly from the authors at <a href="ftp://ftp.arabidopsis.org/home/tair/Software/Patmatch/">ftp://ftp.arabidopsis.org/home/tair/Software/Patmatch/</a>.
 
 The PatMatch software is described in [this scientific article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1160129/).
 
