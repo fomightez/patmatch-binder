@@ -1,6 +1,6 @@
 # patmatch-binder
 
-[![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/fomightez/patmatch-binder/master?filepath=index.ipynb)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/fomightez/patmatch-binder/master?filepath=index.ipynb)
 
 *tl;dr:*  
 Click any `launch binder` badge on this page to run command line-based PatMatch inside your browser.
@@ -70,4 +70,4 @@ Unlike with [circos](https://github.com/fomightez/circos-binder/blob/master/post
 
 Click this button below to begin using PatMatch:
 
-[![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/fomightez/patmatch-binder/master?filepath=index.ipynb)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/fomightez/patmatch-binder/master?filepath=index.ipynb)
