@@ -73,7 +73,7 @@ RUN git clone https://github.com/fomightez/patmatch-binder
 COPY entry.sh /bin
 RUN mkdir /home/jovyan/.irods
 
-ENTRYPOINT ["/bin/entry.sh"]
+ENTRYPOINT ["bash", "/bin/entry.sh"]
 
 
 
