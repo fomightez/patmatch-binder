@@ -5,9 +5,9 @@ python -m bash_kernel.install
 
 # Get PatMAtch and unpack
 # Unlike with [circos](https://github.com/fomightez/circos-binder/blob/master/postBuild), 
-# so far I have been unable to figure out how to get the file off the 
+# cannot get software at time of build because MyBinder.org blocks FTP. Since can't get from
 # [FTP server](ftp://ftp.arabidopsis.org/home/tair/Software/Patmatch/) via curl, 
-# and so I added it to repo.  
+# at time of building image,I added it to repo so it can be access and compiled then.  
 #curl -O ftp://ftp.arabidopsis.org/home/tair/Software/Patmatch/patmatch_1.2.tar.gz
 tar xvfz patmatch_1.2.tar.gz
 rm patmatch_1.2.tar.gz
