@@ -1,6 +1,6 @@
 # patmatch-binder
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/fomightez/patmatch-binder/master?filepath=index.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/patmatch-binder/master?filepath=index.ipynb)
 
 *tl;dr:*  
 Click any `launch binder` badge on this page to run command line-based PatMatch inside your browser.
@@ -31,7 +31,7 @@ The copyright information for the software is available in the `patmatch_1.2` di
 
 ***Clarifying Software Attribution: I, Wayne, am not involved in the PatMatch software at all. Those listed above are the developers and distributors of PatMAtch. See their materials. I simply set up this repository to make the software useable on the command line without installation headaches.***
 
-I, Wayne, did code a Python-based utility for use with the results from command line PatMatch; it is available [here](https://github.com/fomightez/sequencework/tree/master/circos-utilities) and utilized in the notebooks in this repository to process the results and allow easily converting the results to other forms.
+I, Wayne, did code a Python-based utility for use with the results from command line PatMatch; it is available [here](https://github.com/fomightez/sequencework/tree/master/patmatch-utilities/) and utilized in the notebooks in this repository to process the results and allow easily converting the results to other forms.
 
 Usage
 -----
@@ -70,4 +70,4 @@ Unlike with [circos](https://github.com/fomightez/circos-binder/blob/master/post
 
 Click this button below to begin using PatMatch:
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/fomightez/patmatch-binder/master?filepath=index.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/patmatch-binder/master?filepath=index.ipynb)
