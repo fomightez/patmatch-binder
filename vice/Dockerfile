@@ -49,10 +49,13 @@ RUN conda install -y perl=5.22.0.1 \
     perl-text-format=0.59 \
     perl-time-hires=1.9728 \
     perl-parse-recdescent \
-    perl-findbin 
+    perl-findbin \
+    blast>=2.7.1
 
-# Install bash kernel
-RUN pip install bash_kernel==0.7.1
+# Install bash kernel and Biopython
+RUN pip install bash_kernel==0.7.1 \
+    && python3 -m bash_kernel.install \
+    && pip install biopython==1.73
 
 WORKDIR /home/jovyan
 
@@ -69,6 +72,13 @@ RUN git clone https://github.com/fomightez/patmatch-binder
 
 #RUN mkdir /home/jovyan/patmatch-binder
 #COPY patmatch-binder /home/jovyan/patmatch-binder
+
+# Move patmatch folder to same place it is in the MyBinder instance so included 
+# notebooks work both on MyBinder launches and in Cyverse DE launches
+RUN mv patmatch_1.2 patmatch-binder/.
+# Delete the included patmatch archive in the cloned repo to keep consistent
+# with MyBinder launched instances where it is deleted in postBuild
+RUN rm -f patmatch-binder/patmatch_1.2.tar.gz
 
 COPY entry.sh /bin
 RUN mkdir /home/jovyan/.irods
