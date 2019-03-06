@@ -70,9 +70,10 @@ RUN git clone https://github.com/fomightez/patmatch-binder
 #RUN mkdir /home/jovyan/patmatch-binder
 #COPY patmatch-binder /home/jovyan/patmatch-binder
 
-COPY entry.sh /bin
+COPY patmatch-binder/vice/entry.sh /bin
 RUN mkdir /home/jovyan/.irods
 
+WORKDIR /home/jovyan/patmatch-binder/
 ENTRYPOINT ["bash", "/bin/entry.sh"]
 
 
