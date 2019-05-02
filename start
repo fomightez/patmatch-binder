@@ -4,6 +4,7 @@
 rm index.ipynb
 git clone https://github.com/fomightez/ptmbr-accompmatz.git
 cp ptmbr-accompmatz/index.ipynb .
+mv ptmbr-accompmatz/notebooks .
 rm -rf ptmbr-accompmatz
 
 
