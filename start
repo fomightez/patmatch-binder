@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # retrieve notebooks and place correctly in session
+rm index.ipynb
 git clone https://github.com/fomightez/ptmbr-accompmatz.git
 cp ptmbr-accompmatz/index.ipynb .
 rm -rf ptmbr-accompmatz
