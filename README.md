@@ -5,7 +5,7 @@
 *tl;dr:*  
 Click any `launch binder` badge on this page to run command line-based PatMatch inside your browser.
 
-Alternatively, use Cyverse with the `launch vice` badge under [Running PatMatch on CyVerse/VICE](#Running PatMatch on CyVerse/VICE) below.
+Alternatively, use Cyverse with the `launch vice` badge under [Running PatMatch on CyVerse/VICE](#running-patmatch-on-cyversevice) below.
 
 ------
 
