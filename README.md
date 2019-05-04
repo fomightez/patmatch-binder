@@ -5,6 +5,8 @@
 *tl;dr:*  
 Click any `launch binder` badge on this page to run command line-based PatMatch inside your browser.
 
+Alternatively, use Cyverse with the `launch vice` badge under 'Cyverse' below.
+
 ------
 
 ***PatMatch: a program for finding patterns in peptide and nucleotide sequences.***
@@ -64,6 +66,15 @@ Location of tutorial notebooks
 ------------------------------
 
 If you are interested in the accompanying tutorial-like notebooks that you see in the sessions launched from here, the code for them is available outside of the active Jupyter session at [this repostiory here](https://github.com/fomightez/ptmbr-accompmatz). In an effort to streamline development, they have been moved there. Importantly, that allows the version of the PatMatch software to remain 'locked' in the Cyverse app, yet allow me to improve the accompanying material. This also has the effect that the MyBinder-served core image doesn't need building often.
+
+## Running PatMatch on CyVerse/VICE 
+The [VICE (Visual Interactive Computing Environment)](https://cyverse-visual-interactive-computing-environment.readthedocs-hosted.com/en/latest/index.html) in the [CyVerse Discovery Environment](https://www.cyverse.org/discovery-environment) enables users to run Jupyter Lab in a more powerful and more persistent environment. To use VICE, sign up for a free NSF-supported [CyVerse account](https://www.cyverse.org/create-account). 
+
+The VICE environment supports large-scale analyses. Users can upload and download files, and save and share results of their analyses in their user accounts. 
+
+[![Vice](docs/vice_badge.png)](https://de.cyverse.org/de/?type=apps&app-id=??????????????????????&system-id=de)
+
+[Follow these step to run Jupyter Lab on VICE](docs/vice_instructions.md) 
 
 
 Technical Details
