@@ -38,7 +38,8 @@ I, Wayne, did code a Python-based utility for use with the results from command 
 Usage
 -----
 
-This repository is set up to allow running the command line version of this software after pressing the `launch binder` button above or below. The target use case is when you want to run pattern search on sequences not available via the web-based PatMatch offerings (see below) or you want to integrate the results of PatMatch with Python code easily. Refer to this [this page](https://www.yeastgenome.org/nph-patmatch#examples) for PatMatch's 'Supported Pattern Syntax/Examples/Limits' information.
+This repository is set up to allow running the command line version of this software after pressing the `launch binder` button above or below. Alternatively, use the `launch vice` badge under [Running PatMatch on CyVerse/VICE](#running-patmatch-on-cyversevice) below.  
+The target use case is when you want to run pattern search on sequences not available via the web-based PatMatch offerings (see below) or you want to integrate the results of PatMatch with Python code easily. Refer to this [this page](https://www.yeastgenome.org/nph-patmatch#examples) for PatMatch's 'Supported Pattern Syntax/Examples/Limits' information.
 
 In the notebooks that can be launched, I have added some examples illustrating how to use the program and process the results easily with Python and convert to other forms.
 
@@ -62,10 +63,7 @@ There are a number of places where web-served versions of software are already s
 * [fuzzpro/fuzznuc emboss prosite-style pattern matches in complete Genomes DataBase](http://www-archbac.u-psud.fr/genomics/patternMatch.html)
 * [RSAT - genome-scale dna-pattern](http://rsat01.biologie.ens.fr/rsat/genome-scale-dna-pattern_form.cgi)
 
-Location of tutorial notebooks
-------------------------------
 
-If you are interested in the accompanying tutorial-like notebooks that you see in the sessions launched from here, the code for them is available outside of the active Jupyter session at [this repostiory here](https://github.com/fomightez/ptmbr-accompmatz). In an effort to streamline development, they have been moved there. Importantly, that allows the version of the PatMatch software to remain 'locked' in the Cyverse app, yet allow me to improve the accompanying material. This also has the effect that the MyBinder-served core image doesn't need building often.
 
 ## Running PatMatch on CyVerse/VICE 
 The [VICE (Visual Interactive Computing Environment)](https://cyverse-visual-interactive-computing-environment.readthedocs-hosted.com/en/latest/index.html) in the [CyVerse Discovery Environment](https://www.cyverse.org/discovery-environment) enables users to run Jupyter Lab in a more powerful and more persistent environment. To use VICE, sign up for a free NSF-supported [CyVerse account](https://www.cyverse.org/create-account). 
@@ -76,6 +74,11 @@ The VICE environment supports large-scale analyses. Users can upload and downloa
 
 [Follow these step to run Jupyter Lab on VICE](docs/vice_instructions.md) 
 
+
+Location of tutorial notebooks
+------------------------------
+
+If you are interested in the accompanying tutorial-like notebooks that you see in the sessions launched from here, the code for them is available outside of the active Jupyter session at [this repostiory here](https://github.com/fomightez/ptmbr-accompmatz). In an effort to streamline development, they have been moved there. Importantly, that allows the version of the PatMatch software to remain 'locked' in the Cyverse app, yet allow me to improve the accompanying material. This also has the effect that the MyBinder-served core image doesn't need building often.
 
 Technical Details
 -----------------
