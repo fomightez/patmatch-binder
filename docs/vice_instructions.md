@@ -4,7 +4,8 @@ After clicking the [![Vice](vice_badge.png)](https://de.cyverse.org/de/?type=app
 
 See also: [VICE Starting JupyterLab App](https://cyverse-visual-interactive-computing-environment.readthedocs-hosted.com/en/latest/user_guide/quick-jupyter.html) | 
 [VICE Webinar](https://www.youtube.com/watch?v=KpBC0nScfL0) | 
-[Discovery Environment Guide](https://learning.cyverse.org/projects/discovery-environment-guide/en/latest/)
+[Visual Interactive Computing Environment(VICE) Guide](https://learning.cyverse.org/projects/vice/en/latest/index.html)
+
 
 | | |
 |:-- |:-- |
