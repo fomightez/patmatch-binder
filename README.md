@@ -89,6 +89,6 @@ Unlike with [circos](https://github.com/fomightez/circos-binder/blob/master/post
 
 ----
 
-Click this button below to begin using PatMatch:
+Click this button below to begin using PatMatch (or see the [Cyverse section]((#running-patmatch-on-cyversevice)) if you prefer to use it there):
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/patmatch-binder/master?filepath=index.ipynb)
