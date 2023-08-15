@@ -63,6 +63,9 @@ There are a number of places where web-served versions of software are already s
 * [fuzzpro/fuzznuc emboss prosite-style pattern matches in complete Genomes DataBase](http://www-archbac.u-psud.fr/genomics/patternMatch.html)
 * [RSAT - genome-scale dna-pattern](http://rsat01.biologie.ens.fr/rsat/genome-scale-dna-pattern_form.cgi)
 
+**Related command line-based software offerings:**
+
+* seqkit allows for degeneracy in match [as illustrated here](https://www.biostars.org/p/209383/#9572306).
 
 
 ## Running PatMatch on CyVerse/VICE 
