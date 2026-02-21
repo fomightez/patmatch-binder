@@ -88,7 +88,7 @@ Technical Details
 
 This repository is set up to make use of the binder service offered by [MyBinder.org](https://mybinder.org/). See their site for more information about Binder.
 
-Unlike with [circos](https://github.com/fomightez/circos-binder/blob/master/postBuild) which was downloadable via MyBinder.org, MyBinder.org doesn't allow FTP conntections, and so I cannot simply retrieve the software from the [FTP server](ftp://ftp.arabidopsis.org/home/tair/Software/Patmatch/) via curl while building the image. And so instead I added it to repo. Then it gets unpacked and compiled via running `postBuild` as the last part of building of the image from the repository; that built image will get stored by MyBinder and the session launched from the image will already have PatMatch available. The accompanying materials are retrieved when the session starts as directed in the `start` script for the Binder system or in the entry script for the Cyverse VICE app.
+Unlike with [circos](https://github.com/fomightez/circos-binder/blob/master/postBuild) which was downloadable via MyBinder.org, MyBinder.org doesn't allow FTP connections, and so I cannot simply retrieve the software from the [FTP server](ftp://ftp.arabidopsis.org/home/tair/Software/Patmatch/) via curl while building the image. And so instead I added it to repo. Then it gets unpacked and compiled via running `postBuild` as the last part of building of the image from the repository; that built image will get stored by MyBinder and the session launched from the image will already have PatMatch available. The accompanying materials are retrieved when the session starts as directed in the `start` script for the Binder system or in the entry script for the Cyverse VICE app.
 
 ----
 
